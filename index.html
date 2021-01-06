@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="Form1">
+    <h1>Accede a tu Área de Clientes</h1>
+    <p>Elige tu documento</p>
+
+    <form action="" method="post">
+        <label><p><input type="radio" name="Documento" id="1">DNI o Tarjeta de residencia</p></label>
+        <label><p><input type="radio" name="Documento" id="2">Pasaporte</p></label>
+        <p>Número de documento</p><input type="text" name="" id="TipoD" placeholder="DNI/Tarjeta de Residencia/Pasaporte">
+        <p>Fecha de nacimiento</p><input type="date" name="" id="">
+        <p><input type="checkbox" name="" id="">Recordar <input type="image" src="img/Interrogante2.png" alt=""></p>
+        <button type="submit">Entrar</button>
+        <p><span>></span><a href="https://ing.ingdirect.es/pfm/#login-dnie">Acceder con DNI electrónico</a></p>
+        <p><span>></span><a href="https://ing.ingdirect.es/pfm/#login/security-information"> Más información sobre seguridad</a></p>
+    </form>
+    </div>
+
+    <hr>
+
+    <div class="Form2">
+        <h1>Empieza creando tu usuario</h1>
+        <form action="" method="post">
+            <input class="Nombre" type="text" name="Nombre" id="1" placeholder="Nombre (como sale en el DNI)"> <br>
+            <input type="text" name="1Apellido" id="2" placeholder="1º apellido (como sale en el DNI)">
+            <input type="text" name="2Apellido" id="3" placeholder="2º apellido (como sale en el DNI)"> <br>
+            <select name="" id="Id-Sel">
+                <option value="1" selected>DNI/NIF/CERT.AEAT</option>
+            </select>
+            <input type="text" name="Id" id="4" placeholder="Número de documento"><br>
+
+            <a>
+                <img src="img/Esp.png" alt="">
+                <select name="" id="Tel">
+                    <option value="1" selected></a></option>
+                </select>
+                <input type="tel" name="NTel" id="Telefono" placeholder="Móvil">
+            </a>
+            <input type="text" name="Email" id="6" placeholder="Email">
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="Form3">
+        <h1><strong>¿Eres nuevo?</strong></h1>
+        <p class="Titulo">Regístrate para guardar tu información y hacer tus pedidos de forma más fácil y rápida</p>
+    
+        <form action="" method="post">
+            <label><p>Email</p><input type="email" name="Email" id="1" placeholder="Introduce tu email"></label>
+            <label><p>Teléfono</p><input type="tel" name="Tel" id="2" placeholder="Tu teléfono"></label>
+            <label><p>Contraseña</p><input type="password" name="Contra1" id="3" placeholder="Introduce tu contraseña"></label>
+            <label><p>Confirmar tu contraseña</p><input type="password" name="Contra2" id="4" placeholder="Confirmar contraseña"></label> <br>
+            <label><input type="checkbox" name="Politica" id="5">He leído y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a></label><br>
+            <label><input type="checkbox" name="Spam" id="6">Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil</label>
+            <button type="submit">Crear tu cuenta</button>
+        </form>
+        </div>
+
+</body>
+</html>

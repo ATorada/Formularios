@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+
+body {
+    font-family: Overpass;
+}
+
+/* Formulario 1 */
+
+div.Form1 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+div.Form1 span {
+    color: rgb(255, 145, 0);
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.Form1 button {
+    border: 2px rgb(226, 120, 0) solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 115, 0);
+    margin-left: 5vh;
+    width: 55%;
+    font-size: 120%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+div.Form1 button:hover {
+    color: gray;
+    background-color: white;
+
+}
+
+div.Form1 input[type=text],[type=date] {
+    margin-left: 5vh;
+    width: 55%;
+    font-size: 120%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+div.Form1 a {
+    color: black;
+    text-decoration-color: rgb(209, 209, 209);
+}
+
+div.Form1 a:hover {
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+div.Form1 img {
+padding-top: 2px;
+}
+
+/* Formulario 2 */
+
+div.Form2 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+div.Form2 input {
+    display: inline;
+    width: 43%;
+    font-size: 90%;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+div.Form2 input.Nombre {
+    
+    width: 92.5%;
+    font-size: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+div.Form2 select {
+    width: 45%;
+    font-size: 90%;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+div.Form2 select#Tel {
+
+    margin-left: 2px;
+    border: 1px white solid;
+    width: 30px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+
+div.Form2 input#Telefono {
+    width: 29%;
+    font-size: 80%;
+    margin-left: 0px;
+    border: 1px white solid;
+}
+
+div.Form2 a {
+    margin-left: 19px;
+    border: 1px gray solid;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+
+div.Form2 img {
+
+    width: 5%;
+    height: 5%;
+    margin-left: 2%;
+    margin-right: 0%;
+}
+
+div.Form2 h1 {
+    text-align: center;
+}
+
+/* Formulario 3 */
+
+div.Form3 {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+div.Form3 h1,p.Titulo {
+    text-align: center;
+}
+
+
+div.Form3 button {
+    border: 2px rgb(110, 212, 14) solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(110, 212, 14);
+    margin-top: 5%;
+    width: 100%;
+    font-size: 120%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+div.Form3 button:hover {
+    border: 2px  rgb(99, 185, 18) solid;
+    background-color: rgb(99, 185, 18);
+
+}
+
+div.Form3 input[type=email],[type=tel],[type=password] {
+    
+    width: 100%;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+div.Form3 input[type=checkbox]{
+    margin-top: 5%;
+}
+
+div.Form3 a {
+    color: black;
+    font-weight: bold;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+
